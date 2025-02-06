@@ -62,7 +62,7 @@ def modellierung_epex(szenario, strategie):
     netzanschlussfaktor = int(int(szenario.split('_')[5])/100)
     netzanschluss = (max_saeulen['NCS'] * ladeleistung['NCS'] + max_saeulen['HPC'] * ladeleistung['HPC'] + max_saeulen['MCS'] * ladeleistung['MCS']) * netzanschlussfaktor
     
-    for week in range(1):
+    for week in range(52):
         print(f"Optimierung Woche {week+1}")
         df_lkw_filtered = df_lkw[(df_lkw['LoadStatus'] == 1) & (df_lkw['Wochentag']>=1+week*7) & (df_lkw['Wochentag']<=7+week*7)][:].copy()
         T = 288 * 8          # = 2304

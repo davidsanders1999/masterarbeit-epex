@@ -7,7 +7,7 @@ leistung_ladetyp = {
 
 # ======================================================
 list_szenarien = [
-# 'cl_2_quote_100-100-100_netz_100_pow_100-100-100_pause_45-540_M_1_Base', # Base
+'cl_2_quote_100-100-100_netz_100_pow_100-100-100_pause_45-540_M_1_Base', # Base
 
 # 'cl_2_quote_100-100-100_netz_100_pow_100-100-100_pause_45-540_B_2_Bidirektional', # Bidirektional 
 
@@ -31,7 +31,7 @@ list_szenarien = [
 
 # 'cl_2_quote_25-100-100_netz_100_pow_100-100-100_pause_45-540_M_17_Ladequoten-NCS-25',
 # 'cl_2_quote_75-100-100_netz_100_pow_100-100-100_pause_45-540_M_18_Ladequoten-NCS-75', 
-'cl_2_quote_50-100-100_netz_100_pow_100-100-100_pause_45-540_M_19_Ladequoten-NCS-50', # Ladequoten NCS
+# 'cl_2_quote_50-100-100_netz_100_pow_100-100-100_pause_45-540_M_19_Ladequoten-NCS-50', # Ladequoten NCS
 
 # 'cl_2_quote_100-25-100_netz_100_pow_100-100-100_pause_45-540_M_20_Ladequoten-HPC-25',
 # 'cl_2_quote_100-75-100_netz_100_pow_100-100-100_pause_45-540_M_21_Ladequoten-HPC-75',
