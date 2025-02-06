@@ -1,12 +1,16 @@
 import time
-import B_konfiguration_ladehub
-import C_epex_optimierung
-import A_zuweisung_ladetyp
+import zuweisung_ladetyp
+import laden_nicht_laden
+import konfiguration_ladehub
+import epex_optimierung
 
 
 time_start = time.time()
 
-A_zuweisung_ladetyp.main()
+# zuweisung_ladetyp.main()
+konfiguration_ladehub.main()
+laden_nicht_laden.main()
+
 
 
 time_end = time.time()
